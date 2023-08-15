@@ -14,16 +14,16 @@
   },
   "homepage": "https://hcspearguns.github.io/",
   "scripts": {
-	 "predeploy": "npm run build",
-	"deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-	  "gh-pages": "^3.2.0",
-  }
+    "gh-pages": "^3.2.0", // Comma was missing here
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
